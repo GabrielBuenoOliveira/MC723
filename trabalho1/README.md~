@@ -31,7 +31,7 @@ O Benchmark 8 utiliza um programa que utiliza a biblioteca [FFTW] com essa bibli
  *os benchmarks em negritos foram os utilizados pelo meu grupo  na estapa 1*
  
 ## Análise dos resultados
-Os resultados serão divididos por benchmarks, os quais meu grupo precisa analisar, onde para cada um haverá uma classificação de desempenho das máquinas.
+Os resultados serão divididos por benchmarks, os quais meu grupo precisava analisar, onde para cada haverá uma classificação de desempenho das máquinas.
 ### Benchmark 1
 #### Resultados
 |Máquina|Tempo(s)|Desvio padrão de tempo(s)|Performace de disco (MB/s)|Desvio padrão(MB/s)|
@@ -115,19 +115,19 @@ Máquina|tempo médio(s)|escrita média(MB/s)|leitura média (MB/s)|
 
 #### Classificação
 Para a classificação foi considerada na ordem: tempo médio, escrita média e leitura média. 
-Posição|Máquina|
-------:|------:|
-1|27|
-2|15|
-3|7|
-4|5|
-5|13|
-6|6|
-7|24|
-8|30|
-9|12|
-10|14|
-11|16|
+|Posição|Máquina|
+|------:|------:|
+|1|27|
+|2|15|
+|3|7|
+|4|5|
+|5|13|
+|6|6|
+|7|24|
+|8|30|
+|9|12|
+|10|14|
+|11|16|
 
  [FFTW]: <http://www.fftw.org/>
  [TCC Tiny C Compiler 0.9.26]: <http//bellard.org/tcc/>

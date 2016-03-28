@@ -50,20 +50,20 @@ Os resultados serão divididos por benchmarks, os quais meu grupo precisava anal
 |30|78.80|9.58|58.242|19.20|
 #### Classificação 
 Para a classificação foi considerado primeiro o tempo e depois o performace em disco.
-Posição|Máquina|
+|Posição|Máquina|
 |----:|-----:|
-1|4|
-2|18|
-3|10|
-4|5|
-5|13|
-6|25|
-7|12|
-8|22|
-9|30|
-10|3|
-11|8|
-12|23|
+|1|4|
+|2|18|
+|3|10|
+|4|5|
+|5|13|
+|6|25|
+|7|12|
+|8|22|
+|9|30|
+|10|3|
+|11|8|
+|12|23|
 ### Benchmark 2
 #### Resultados
 Máquina|	Time Elapsed(s)|	page-faults:HG|	stalled-cycles-frontend:HG|	L1-dcache-load-misses:HG|
@@ -83,51 +83,51 @@ Máquina|	Time Elapsed(s)|	page-faults:HG|	stalled-cycles-frontend:HG|	L1-dcache
 
 #### Classificação
 Para a classificação foi considerado na ordem:  tempo, page-fault e cache load misses.
-Posição|Máquina|
-------:|------:|
-1|18|
-2|12|
-3|15|
-4|26|
-5|10|
-6|5|
-7|14|
-8|24|
-9|13|
-10|6|
-11|16|
-12|8|
+|Posição|Máquina|
+|------:|------:|
+|1|18|
+|2|12|
+|3|15|
+|4|26|
+|5|10|
+|6|5|
+|7|14|
+|8|24|
+|9|13|
+|10|6|
+|11|16|
+|12|8|
 ### Benchmark 3
 #### Resultados
-Máquina|tempo médio(s)|escrita média(MB/s)|leitura média (MB/s)|
+|Máquina|tempo médio(s)|escrita média(MB/s)|leitura média (MB/s)|
 |------:|-------------:|------------------:|-------------------:|
-5|	7.98|	1780.0|	2360.0|
-6|	13.70|	13.8|	92.1|
-7|	7.90|	1627.3|	3702.8|
-12|	36.30|	1085.0|	2021.0|
-13|	10.46|	1840.0|	3144.5|
-14|	89.60|	641.0|	2781.0|
-15|	7.60|	1758.2|	4031.4|
-16|	123.70|	10.9|	793.7|
-24|	14.18|	1426.1|	2413.4|
-27|	7.01|	1103.2|	2742.6|
-30|	25.31|	82.1|	2065.6|
+|5|	7.98|	1780.0|	2360.0|
+|6|	13.70|	13.8|	92.1|
+|7|	7.90|	1627.3|	3702.8|
+|12|	36.30|	1085.0|	2021.0|
+|13|	10.46|	1840.0|	3144.5|
+|14|	89.60|	641.0|	2781.0|
+|15|	7.60|	1758.2|	4031.4|
+|16|	123.70|	10.9|	793.7|
+|24|	14.18|	1426.1|	2413.4|
+|27|	7.01|	1103.2|	2742.6|
+|30|	25.31|	82.1|	2065.6|
 
 #### Classificação
 Para a classificação foi considerada na ordem: tempo médio, escrita média e leitura média. 
-Posição|Máquina|
-------:|------:|
-1|27|
-2|15|
-3|7|
-4|5|
-5|13|
-6|6|
-7|24|
-8|30|
-9|12|
-10|14|
-11|16|
+|Posição|Máquina|
+|------:|------:|
+|1|27|
+|2|15|
+|3|7|
+|4|5|
+|5|13|
+|6|6|
+|7|24|
+|8|30|
+|9|12|
+|10|14|
+|11|16|
 
  [FFTW]: <http://www.fftw.org/>
  [TCC Tiny C Compiler 0.9.26]: <http//bellard.org/tcc/>
