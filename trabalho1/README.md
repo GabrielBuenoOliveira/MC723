@@ -84,10 +84,10 @@ Máquina|	Time Elapsed(s)|	page-faults:HG|	stalled-cycles-frontend:HG|	L1-dcache
 |24|	30.86|	16 225|		|2,608,186,738|
 |26|	19.88|	20 475|		|1,234,062,095|
 
-![Benchmark2-tempo](/MC723/trabalho1/graficos/ffmpeg_time.png "Fig 3")
-![Benchmark2-pagefaults](/MC723/trabalho1/graficos/ffmpeg_pagefaults.png "Fig 4")
-![Benchmark2-cache](/MC723/trabalho1/graficos/ffmpeg_cachemisses.png "Fig 5")
-![Benchmark2-stalled](/MC723/trabalho1/graficos/ffmpeg_stalledcycles.png "Fig 6")
+![Benchmark2](/trabalho1/graficos/ffmpeg_time.png "Fig 3")
+![Benchmark2](/trabalho1/graficos/ffmpeg_pagefaults.png "Fig 4")
+![Benchmark2](/trabalho1/graficos/ffmpeg_cachemisses.png "Fig 5")
+![Benchmark2](/trabalho1/graficos/ffmpeg_stalledcycles.png "Fig 6")
 
 #### Classificação
 Para a classificação foi considerado na ordem:  tempo, page-fault e cache load misses.
@@ -121,8 +121,8 @@ Para a classificação foi considerado na ordem:  tempo, page-fault e cache load
 |27|	7.01|	1103.2|	2742.6|
 |30|	25.31|	82.1|	2065.6|
 
-![Benchmark3-tempo](/MC723/trabalho1/graficos/convolucao_tempo.png "Fig 7")
-![Benchmark3-disco](/MC723/trabalho1/graficos/convolucao__disco.png "Fig 8")
+![Benchmark3-tempo](/trabalho1/graficos/convolucao_tempo.png "Fig 7")
+![Benchmark3-disco](/trabalho1/graficos/convolucao__disco.png "Fig 8")
 
 #### Classificação
 Para a classificação foi considerada na ordem: tempo médio, escrita média e leitura média. 
@@ -142,34 +142,34 @@ Para a classificação foi considerada na ordem: tempo médio, escrita média e 
 
 ### Benchmark 4
 #### Resultados
-![Benchmark4-tempo](/MC723/trabalho1/graficos/gnuplot_tempo.png "Fig 9")
-![Benchmark4-tempo-detail](/MC723/trabalho1/graficos/gnuplot_tempo_detail.png "Fig 10")
-![Benchmark4-buscycles](/MC723/trabalho1/graficos/gnuplot_buscycles.png "Fig 11")
-![Benchmark4-b-detail](/MC723/trabalho1/graficos/gnuplot_buscycles_detail.png "Fig 12")
-![Benchmark4-cpuclock](/MC723/trabalho1/graficos/gnuplot_cpuclock.png "Fig 13")
-![Benchmark4-cpu-detail](/MC723/trabalho1/graficos/gnuplot_cpuclock_detail.png "Fig 14")
+![Benchmark4-tempo](/trabalho1/graficos/gnuplot_tempo.png "Fig 9")
+![Benchmark4-tempo-detail](/trabalho1/graficos/gnuplot_tempo_detail.png "Fig 10")
+![Benchmark4-buscycles](/trabalho1/graficos/gnuplot_buscycles.png "Fig 11")
+![Benchmark4-b-detail](/trabalho1/graficos/gnuplot_buscycles_detail.png "Fig 12")
+![Benchmark4-cpuclock](/trabalho1/graficos/gnuplot_cpuclock.png "Fig 13")
+![Benchmark4-cpu-detail](/trabalho1/graficos/gnuplot_cpuclock_detail.png "Fig 14")
 
 ### Benchmark 5
 #### Resultados
-![Benchmark5-bubble](/MC723/trabalho1/graficos/ordenacao_bubble.png "Fig 15")
-![Benchmark5-quick](/MC723/trabalho1/graficos/ordenacao_quick.png "Fig 16")
-![Benchmark5-insertion](/MC723/trabalho1/graficos/ordenacao_insertion.png "Fig 17")
-![Benchmark5-selection](/MC723/trabalho1/graficos/ordenacao_selection.png "Fig 18")
+![Benchmark5-bubble](/trabalho1/graficos/ordenacao_bubble.png "Fig 15")
+![Benchmark5-quick](/trabalho1/graficos/ordenacao_quick.png "Fig 16")
+![Benchmark5-insertion](/trabalho1/graficos/ordenacao_insertion.png "Fig 17")
+![Benchmark5-selection](/trabalho1/graficos/ordenacao_selection.png "Fig 18")
 
 ### Benchmark 6
 #### Resultados
-![Benchmark6-cpu](/MC723/trabalho1/trabalho1/graficos/Benchmark6-cpus.png "Fig 19")
-![Benchmark6-inst](/MC723/trabalho1/graficos/Benchmark6-inst.png "Fig 20")
-![Benchmark6-time](/MC723/trabalho1/graficos/Benchmark6-time.png "Fig 21")
-![Benchmark6-cycles](/MC723/trabalho1/graficos/Benchmark6-cycles.png "Fig 22")
+![Benchmark6-cpu](/trabalho1/trabalho1/graficos/Benchmark6-cpus.png "Fig 19")
+![Benchmark6-inst](/trabalho1/graficos/Benchmark6-inst.png "Fig 20")
+![Benchmark6-time](/trabalho1/graficos/Benchmark6-time.png "Fig 21")
+![Benchmark6-cycles](/trabalho1/graficos/Benchmark6-cycles.png "Fig 22")
 
 ### Benchmark 7
 #### Resultados
-![Benchmark7](/MC723/trabalho1/graficos/Benchmark7.png "Fig 23")
+![Benchmark7](/trabalho1/graficos/Benchmark7.png "Fig 23")
 
 ### Benchmark 8
 #### Resultados
-![Benchmark8](/MC723/trabalho1/graficos/Benchmark8.png "Fig 24")
+![Benchmark8](/trabalho1/graficos/Benchmark8.png "Fig 24")
 
 
  [FFTW]: <http://www.fftw.org/>
