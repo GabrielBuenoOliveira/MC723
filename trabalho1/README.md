@@ -49,8 +49,8 @@ Os resultados serão divididos por benchmarks, os quais meu grupo precisava anal
 |25|62.43|1.71|101.34|12.86|
 |30|78.80|9.58|58.242|19.20|
 
-![Benchmark1-tempo](/graficos/Genetic_Tempo.png "Fig 1")
-![Benchmark1-disco](/graficos/Genetic_Disco.png "Fig 2")
+![Benchmark1-tempo](/trabalho1/graficos/Genetic_Tempo.png "Fig 1")
+![Benchmark1-disco](/trabalho1/graficos/Genetic_Disco.png "Fig 2")
 #### Classificação 
 Para a classificação foi considerado primeiro o tempo e depois o performace em disco.
 |Posição|Máquina|
@@ -158,7 +158,7 @@ Para a classificação foi considerada na ordem: tempo médio, escrita média e 
 
 ### Benchmark 6
 #### Resultados
-![Benchmark6-cpu](/graficos/Benchmark6-cpus.png "Fig 19")
+![Benchmark6-cpu](/trabalho1/graficos/Benchmark6-cpus.png "Fig 19")
 ![Benchmark6-inst](/graficos/Benchmark6-inst.png "Fig 20")
 ![Benchmark6-time](/graficos/Benchmark6-time.png "Fig 21")
 ![Benchmark6-cycles](/graficos/Benchmark6-cycles.png "Fig 22")
