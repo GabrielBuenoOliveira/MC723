@@ -49,8 +49,8 @@ Os resultados serão divididos por benchmarks, os quais meu grupo precisava anal
 |25|62.43|1.71|101.34|12.86|
 |30|78.80|9.58|58.242|19.20|
 
-![Benchmark1-tempo](/trabalho1/graficos/Genetic_Tempo.png "Fig 1")
-![Benchmark1-disco](/trabalho1/graficos/Genetic_Disco.png "Fig 2")
+![Benchmark1-tempo](/MC723/trabalho1/graficos/Genetic_Tempo.png "Fig 1")
+![Benchmark1-disco](/MC723/trabalho1/graficos/Genetic_Disco.png "Fig 2")
 #### Classificação 
 Para a classificação foi considerado primeiro o tempo e depois o performace em disco.
 |Posição|Máquina|
