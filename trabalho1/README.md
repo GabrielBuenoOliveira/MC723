@@ -48,11 +48,13 @@ O Benchmark 8 utiliza um programa que utiliza a biblioteca [FFTW] com essa bibli
 | Matheus Figueiredo | Intel Core i7-4700HQ CPU @ 2.4GHz, 16GB DDR3, Ubuntu 14.04LTS, HDD 5400RPM                                                                     | 
 | Matheus Pinheiro   | Intel® Core™ i5-4200U CPU @ 1.60GHz × 4 ; Memory 3,8 GiB; Ubuntu 15.04 64-bit;                                                                 | 
 
+
 #### Resultados
 ![Benchmark1](/trabalho1/graficos/Genetic-Tempo.png "Fig 1")
 ![Benchmark1](/trabalho1/graficos/Genetic-Disco.png "Fig 2")
 
-Com os resultados obitidos podemos notar que retirando a máquina do Pedro Vasconcellos, que é um raspbarry pi, os tempos de execução são próximos. Podemos notar também que a máquina do Pedro Meireles, por se tratar de um desktop e não ter limitações como consumo de energia e quantidade de calor dissipado, apresenta um melhor desempenho, mesmo tratando-se de um i5 em comparação com os i7, devido ao seu clock relativamente mais alto (3,3 GHz) quando comparado a média das outras máquinas (2,4 GHz).
+Com os resultados obitidos podemos notar que retirando a máquina do Pedro Vasconcellos, que é um raspbarry pi, os tempos de execução são próximos. Podemos notar também que a máquina do Pedro Meireles, por se tratar de um desktop e não ter limitações como consumo de energia e quantidade de calor dissipado, apresenta um melhor desempenho, mesmo tratando-se de um i5 em comparação com os i7, devido ao seu clock relativamente mais alto (3,3 GHz) quando comparado a média das outras máquinas (2,4 GHz) e podemos associar também a alta frequencia da memória com o resultado obtido.
+Já para o desempenho do disco as informações dos HDs das máquinas não contém ou estão incompletas a descrição dos mesmos o que acaba prejudicando a análise.
 
 ### Benchmark 2
 #### Máquinas utilizadas
@@ -70,12 +72,14 @@ Com os resultados obitidos podemos notar que retirando a máquina do Pedro Vasco
 | João Fidélis      | Intel Core i7-Intel(R) Core(TM) i7-4700HQ CPU @ 2.40GHz x 4, 16GB DDR3, Ubuntu 14.04LTS, HD: WD10S21X-24R1BTO / 7200RPM / Sata III             | 
 | Wendrey           | Intel Core i5-5200U CPU 2.20GHz x 4 L1 32KiB L2 256KiB L3 3MiB Memory 8GiB DDR3 Disk 1TB WDC WD10JPVX-22J Ubuntu 14.04 LTS                     | 
 | Titouan Thibaud   | Intel Core i7-2630QM CPU @2.00GHz Memory 4GiB Linux Mint                                                                                       | 
-
 #### Resultados
 ![Benchmark2](/trabalho1/graficos/ffmpeg_time.png "Fig 3")
 ![Benchmark2](/trabalho1/graficos/ffmpeg_pagefaults.png "Fig 4")
 ![Benchmark2](/trabalho1/graficos/ffmpeg_cachemisses.png "Fig 5")
 ![Benchmark2](/trabalho1/graficos/ffmpeg_stalledcycles.png "Fig 6")
+
+Neste benchmark podemos notar que os processadores novos da intel quando comparados a geração passada apresentam um pequeno ganho de desempenho mesmo em frequências menores, podemos notar também que os modelos com maiores quantidades de núcleos e threads tiveram um melhor desempenho, já que o programa utilizava de processamento paralelo.
+O número de cache misses foi menor nos processadores com maiores caches o que também e esperado.
 
 ### Benchmark 3
 #### Máquinas utilizadas
