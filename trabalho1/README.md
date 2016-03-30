@@ -51,22 +51,7 @@ Os resultados serão divididos por benchmarks, os quais meu grupo precisava anal
 
 ![Benchmark1](/trabalho1/graficos/Genetic-Tempo.png "Fig 1")
 ![Benchmark1](/trabalho1/graficos/Genetic-Disco.png "Fig 2")
-#### Classificação 
-Para a classificação foi considerado primeiro o tempo e depois o performace em disco.
-|Posição|Máquina|
-|----:|-----:|
-|1|4|
-|2|18|
-|3|10|
-|4|5|
-|5|13|
-|6|25|
-|7|12|
-|8|22|
-|9|30|
-|10|3|
-|11|8|
-|12|23|
+
 ### Benchmark 2
 #### Resultados
 Máquina|	Time Elapsed(s)|	page-faults:HG|	stalled-cycles-frontend:HG|	L1-dcache-load-misses:HG|
@@ -89,22 +74,6 @@ Máquina|	Time Elapsed(s)|	page-faults:HG|	stalled-cycles-frontend:HG|	L1-dcache
 ![Benchmark2](/trabalho1/graficos/ffmpeg_cachemisses.png "Fig 5")
 ![Benchmark2](/trabalho1/graficos/ffmpeg_stalledcycles.png "Fig 6")
 
-#### Classificação
-Para a classificação foi considerado na ordem:  tempo, page-fault e cache load misses.
-|Posição|Máquina|
-|------:|------:|
-|1|18|
-|2|12|
-|3|15|
-|4|26|
-|5|10|
-|6|5|
-|7|14|
-|8|24|
-|9|13|
-|10|6|
-|11|16|
-|12|8|
 ### Benchmark 3
 #### Resultados
 |Máquina|tempo médio(s)|escrita média(MB/s)|leitura média (MB/s)|
@@ -124,21 +93,6 @@ Para a classificação foi considerado na ordem:  tempo, page-fault e cache load
 ![Benchmark3-tempo](/trabalho1/graficos/convolucao_tempo.png "Fig 7")
 ![Benchmark3-disco](/trabalho1/graficos/convolucao__disco.png "Fig 8")
 
-#### Classificação
-Para a classificação foi considerada na ordem: tempo médio, escrita média e leitura média. 
-|Posição|Máquina|
-|------:|------:|
-|1|27|
-|2|15|
-|3|7|
-|4|5|
-|5|13|
-|6|6|
-|7|24|
-|8|30|
-|9|12|
-|10|14|
-|11|16|
 
 ### Benchmark 4
 #### Resultados
