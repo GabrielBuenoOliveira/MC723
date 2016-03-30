@@ -54,7 +54,7 @@ O Benchmark 8 utiliza um programa que utiliza a biblioteca [FFTW] com essa bibli
 ![Benchmark1](/trabalho1/graficos/Genetic-Disco.png "Fig 2")
 
 Com os resultados obitidos podemos notar que retirando a máquina do Pedro Vasconcellos, que é um raspbarry pi, os tempos de execução são próximos. Podemos notar também que a máquina do Pedro Meireles, por se tratar de um desktop e não ter limitações como consumo de energia e quantidade de calor dissipado, apresenta um melhor desempenho, mesmo tratando-se de um i5 em comparação com os i7, devido ao seu clock relativamente mais alto (3,3 GHz) quando comparado a média das outras máquinas (2,4 GHz) e podemos associar também a alta frequencia da memória com o resultado obtido.
-Já para o desempenho do disco as informações dos HDs das máquinas não contém ou estão incompletas a descrição dos mesmos o que acaba prejudicando a análise.
+Já para o desempenho do disco as informações dos HDs das máquinas não contém ou estão incompletas a descrição dos mesmos, o que acaba prejudicando a análise.
 
 ### Benchmark 2
 #### Máquinas utilizadas
@@ -78,8 +78,10 @@ Já para o desempenho do disco as informações dos HDs das máquinas não cont�
 ![Benchmark2](/trabalho1/graficos/ffmpeg_cachemisses.png "Fig 5")
 ![Benchmark2](/trabalho1/graficos/ffmpeg_stalledcycles.png "Fig 6")
 
-Neste benchmark podemos notar que os processadores novos da intel quando comparados a geração passada apresentam um pequeno ganho de desempenho mesmo em frequências menores, podemos notar também que os modelos com maiores quantidades de núcleos e threads tiveram um melhor desempenho, já que o programa utilizava de processamento paralelo.
-O número de cache misses foi menor nos processadores com maiores caches o que também e esperado.
+
+Neste benchmark podemos notar que os processadores novos da intel quando comparados a geração passada apresentam um ganho de desempenho mesmo para frequências menores, podemos notar também que os modelos com maiores quantidades de núcleos e threads tiveram um melhor desempenho, já que o programa utilizava de processamento paralelo.
+O número de cache misses foi relativamente parecidos no processadores de notebooks já que há uma limitação de consumo de energia e calor a ser dissipado, o que pode diminuir o tamanho das caches impactando no número de caches misses. O número de pages fault em geral foi proporcional a quantidade de memória disponível no sistema, o que também é esperado, já que com mais espaço dispomível pode-se trazer muito mais páginas referentes ao processo para a memória. A quantidade de memória também impacta no desempenho, já que a busca na memória é muito mais rápida quando comparada com a busca no disco. O gráfico (fig 4) representa muito bem este resultado.
+
 
 ### Benchmark 3
 #### Máquinas utilizadas
@@ -101,6 +103,7 @@ O número de cache misses foi menor nos processadores com maiores caches o que t
 ![Benchmark3-tempo](/trabalho1/graficos/convolucao_tempo.png "Fig 7")
 ![Benchmark3-disco](/trabalho1/graficos/convolucao__disco.png "Fig 8")
 
+Neste benchmark podemos notar uma pequena diferença de desempenho nas máquinas com os processadores com um maior número de threads, retirando os casos onde provavelmente o programa foi executado em uma máquina virtual como no caso do Renan Castro e provavelmente debios e o Gustavo Basso. Podemos notar aqui também que todos os processadores de gerações mais novas da intel tem um desempenho muito superior a geração passada, o que demonstra a evolução da arquitetura desses processadores. Podemos notar também como utilizar uma máquina virtual o desempenho é afetado. Já para o desempenho do disco as informações dos HDs das máquinas não contém ou estão incompletas a descrição dos mesmos, o que acaba prejudicando a análise.
 
 ### Benchmark 4
 #### Resultados
@@ -132,6 +135,9 @@ O número de cache misses foi menor nos processadores com maiores caches o que t
 ### Benchmark 8
 #### Resultados
 ![Benchmark8](/trabalho1/graficos/Benchmark8.png "Fig 24")
+
+### Conclusão
+Com as análises presentes neste relatório podemos concluir que os resultados em geral foram muito parecidos,retirando o caso do raspbarry pi onde o poder de processamento é muito infeiror quando comparado aos outros, os resultados mostrados dão uma ideia geral das performaces mas não podem ser considerados finais já que os computadores utilizam componetes de diferentes fabricantes, com diferentes configurações e diferentes sistemas operacionais o que acaba influenciando os resultados. Sendo assim, os resultados apresentados aqui são relativamente impreciso, porém ilustram bem a diferença de processamento entre famílias de processadores, frequências, números de núcleos e threads.
 
 
  [FFTW]: <http://www.fftw.org/>
