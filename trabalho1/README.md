@@ -28,68 +28,74 @@ O Benchmark 7 utiliza o [TCC Tiny C Compiler 0.9.26]: um compilador para a lingu
 ### Benchmark 8 (FFTW)
 O Benchmark 8 utiliza um programa que utiliza a biblioteca [FFTW] com essa biblioteca calcula a transformada discreta de Fourier complexa unidimensional. São medidos os tempos de execução de 2 programas, onde em ambos calculão as transformadas e apenas o segundo salva os resultados em um arquivo results.txt.
 
- *os benchmarks em negritos foram os utilizados pelo meu grupo  na estapa 1*
+ *os benchmarks em negritos foram os utilizados pelo meu grupo na estapa 1*
  
 ## Análise dos resultados
-Os resultados serão divididos por benchmarks, os quais meu grupo precisava analisar, onde para cada haverá uma classificação de desempenho das máquinas.
 ### Benchmark 1
-#### Resultados
-|Máquina|Tempo(s)|Desvio padrão de tempo(s)|Performace de disco (MB/s)|Desvio padrão(MB/s)|
-|-------:|:---------|:---------------|:-------|:------------------------|
-|3|84.64|5.32|78.30|14.17|
-|4|48.85|3.99|25.68|1.92|
-|5|59.38|5|133.61|7.58|
-|8|106.47|10.05|41.71|15.55|
-|10|55.97|1.97|96.95|9.19|
-|12|66.99||84.41||	
-|13|61.60|4.27|81.6|17.06|
-|18|54.38|1.58|106.73|12.40|
-|22|68.93|3.23|56.63|4.92|
-|23|568.41|39.12|10.40|0.68|
-|25|62.43|1.71|101.34|12.86|
-|30|78.80|9.58|58.242|19.20|
+#### Máquinas utilizadas.
+|                    |                                                                                                                                                | 
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------| 
+| Mateus Ruivo       | Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz 3072 KB Cache, 4GB RAM DDR3, 5400rpm SATA                                                             | 
+| Pedro Meireles     | Intel® Core™ i5-4590 CPU @ 3.30GHz × 4;  Memory 8 GiB;  64-bit graph: Intel® Haswell Desktop , Gnome: Version 3.18.2; Disk 216.9 GB; Fedora 23 | 
+| Klaus Rollman      | Intel(R) Core(TM) i7-3610QM CPU 4 cores, 8 threads @ 2.30GHz @ L1 256 KB / L2 1024 KB / L3 6144 KB                                             | 
+| Luiz Sekijima      | Intel® Core™2 Duo CPU T6500 @ 2.10GHz × 2, 4GB RAM                                                                                             | 
+| Renan Gomes        | Intel® Core™ i7-4702MQ CPU @ 2.20GHz × 8 (64 bits) Memory 8 GiB; Graphics Intel® Haswell Mobile ; Ubuntu 14.04                                 | 
+| debios             |  Intel(R) Core(TM) i7-3612QM CPU @ 2.10GHz x 4, 8 threads, 8GB, 64-bit, SSD 32GB, HDD1TB (5400rpm), Debian                                     | 
+| Gabriel Bueno      | Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz x 2, 4 threads, 64-bit; Memory 8 GB DDR3; HD SATA 5400rpm;Ubuntu  15.10                               | 
+| João Fidélis       | Intel Core i7-Intel(R) Core(TM) i7-4700HQ CPU @ 2.40GHz x 4, 16GB DDR3, Ubuntu 14.04LTS, HD: WD10S21X-24R1BTO / 7200RPM / Sata III             | 
+| Pedro Grijó        | Intel(R) Core(TM) i7-2670QM CPU @ 2.20GHz x4, 8GB DDR 1333Mhz ,Ubuntu 14.04LTS 32bits,HDD: SAMSUNG HN-M101MBB / 5400 RPM/ Sata III             | 
+| Pedro Vasconcellos | Raspberry Pi, 900MHz quad-core ARM Cortex-A7 CPU, 1GB RAM, 32GB SD Card                                                                        | 
+| Matheus Figueiredo | Intel Core i7-4700HQ CPU @ 2.4GHz, 16GB DDR3, Ubuntu 14.04LTS, HDD 5400RPM                                                                     | 
+| Matheus Pinheiro   | Intel® Core™ i5-4200U CPU @ 1.60GHz × 4 ; Memory 3,8 GiB; Ubuntu 15.04 64-bit;                                                                 | 
 
+#### Resultados
 ![Benchmark1](/trabalho1/graficos/Genetic-Tempo.png "Fig 1")
 ![Benchmark1](/trabalho1/graficos/Genetic-Disco.png "Fig 2")
 
-### Benchmark 2
-#### Resultados
-Máquina|	Time Elapsed(s)|	page-faults:HG|	stalled-cycles-frontend:HG|	L1-dcache-load-misses:HG|
-|---:|----:|----:|---:|----:|
-|5|	29.60|	29,618|	149,800,000,000	|23,770,000,000|
-|6|	33|	16,470	|17,250,666,347|	918,315,918|
-|8|	69.65|	12,112|	|2,119,978,252|
-|10|	27.70|	25,000|		|2,531,634,416|
-|12|	16.64|	29,942|	151,897,596,080	|2,315,532,150|
-|13|	31.49|	16,509|		|2,358,000,000|
-|14|	29.73|	14,145|		|||
-|15|	18.19|	25,168|	148,666,657,714|	2,307,322,153|
-|16|	32.83|	21,057|		|2,156,530,201|
-|18|	14.84|	25,172|		|2,481,891,508|
-|24|	30.86|	16 225|		|2,608,186,738|
-|26|	19.88|	20 475|		|1,234,062,095|
+Com os resultados obitidos podemos notar que retirando a máquina do Pedro Vasconcellos, que é um raspbarry pi, os tempos de execução são próximos. Podemos notar também que a máquina do Pedro Meireles, por se tratar de um desktop e não ter limitações como consumo de energia e quantidade de calor dissipado, apresenta um melhor desempenho, mesmo tratando-se de um i5 em comparação com os i7, devido ao seu clock relativamente mais alto (3,3 GHz) quando comparado a média das outras máquinas (2,4 GHz).
 
+### Benchmark 2
+#### Máquinas utilizadas
+|                   |                                                                                                                                                | 
+|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------| 
+| Klaus Rollman     | Intel(R) Core(TM) i7-3610QM CPU 4 cores, 8 threads @ 2.30GHz @ L1 256 KB / L2 1024 KB / L3 6144 KB                                             | 
+| yk0 - Yugo Kuno   | AMD PhenonII, 4 cores, 3.2MHz; 10GB, ddr3, 1.333 MHz; hdd sata3, 7200rpm, 32MB buffer                                                          | 
+| Luiz Sekijima     | Intel® Core™2 Duo CPU T6500 @ 2.10GHz × 2, 4GB RAM                                                                                             | 
+| Renan Gomes       | Intel® Core™ i7-4702MQ CPU @ 2.20GHz × 8 (64 bits) Memory 8 GiB; Graphics Intel® Haswell Mobile ; Ubuntu 14.04                                 | 
+| debios            |  Intel(R) Core(TM) i7-3612QM CPU @ 2.10GHz x 4, 8 threads, 8GB, 64-bit, SSD 32GB, HDD1TB (5400rpm), Debian                                     | 
+| Gabriel Bueno     | Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz x 2, 4 threads, 64-bit; Memory 8 GB DDR3; HD SATA 5400rpm;Ubuntu  15.10                               | 
+| Renan Castro      | Intel(R) Core(TM) i7-3740QM CPU @ 2.70GHz @ 2 CORES @ Virtual Machine                                                                          | 
+| Gabriel Magalhães | Intel® Core™ i7-3612QM CPU @ 2.10GHz × 8; Memory 8GB, SSD Kingston 240GB V300 Sata III;  Ubuntu 15.04                                          | 
+| Victor Souza      | Intel(R) Core(TM)2 Quad CPU Q8400  @ 2.66GHz; Memory 4GB, Fedora release 21                                                                    | 
+| João Fidélis      | Intel Core i7-Intel(R) Core(TM) i7-4700HQ CPU @ 2.40GHz x 4, 16GB DDR3, Ubuntu 14.04LTS, HD: WD10S21X-24R1BTO / 7200RPM / Sata III             | 
+| Wendrey           | Intel Core i5-5200U CPU 2.20GHz x 4 L1 32KiB L2 256KiB L3 3MiB Memory 8GiB DDR3 Disk 1TB WDC WD10JPVX-22J Ubuntu 14.04 LTS                     | 
+| Titouan Thibaud   | Intel® Core™ i5-4590 CPU @ 3.30GHz × 4;  Memory 8 GiB;  64-bit graph: Intel® Haswell Desktop , Gnome: Version 3.18.2; Disk 216.9 GB; Fedora 23 | 
+| Titouan Thibaud   | Intel Core i7-2630QM CPU @2.00GHz Memory 4GiB Linux Mint                                                                                       | 
+
+#### Resultados
 ![Benchmark2](/trabalho1/graficos/ffmpeg_time.png "Fig 3")
 ![Benchmark2](/trabalho1/graficos/ffmpeg_pagefaults.png "Fig 4")
 ![Benchmark2](/trabalho1/graficos/ffmpeg_cachemisses.png "Fig 5")
 ![Benchmark2](/trabalho1/graficos/ffmpeg_stalledcycles.png "Fig 6")
 
 ### Benchmark 3
-#### Resultados
-|Máquina|tempo médio(s)|escrita média(MB/s)|leitura média (MB/s)|
-|------:|-------------:|------------------:|-------------------:|
-|5|	7.98|	1780.0|	2360.0|
-|6|	13.70|	13.8|	92.1|
-|7|	7.90|	1627.3|	3702.8|
-|12|	36.30|	1085.0|	2021.0|
-|13|	10.46|	1840.0|	3144.5|
-|14|	89.60|	641.0|	2781.0|
-|15|	7.60|	1758.2|	4031.4|
-|16|	123.70|	10.9|	793.7|
-|24|	14.18|	1426.1|	2413.4|
-|27|	7.01|	1103.2|	2742.6|
-|30|	25.31|	82.1|	2065.6|
+#### Máquinas utilizadas
+|                   |                                                                                                                                                | 
+|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------| 
+| Klaus Rollman     | Intel(R) Core(TM) i7-3610QM CPU 4 cores, 8 threads @ 2.30GHz @ L1 256 KB / L2 1024 KB / L3 6144 KB                                             | 
+| yk0 - Yugo Kuno   | AMD PhenonII, 4 cores, 3.2MHz; 10GB, ddr3, 1.333 MHz; hdd sata3, 7200rpm, 32MB buffer                                                          | 
+| Cygnus X-1        | Intel® Core™ i7 × 4;  Memory 8 GiB;                                                                                                            | 
+| debios            |  Intel(R) Core(TM) i7-3612QM CPU @ 2.10GHz x 4, 8 threads, 8GB, 64-bit, SSD 32GB, HDD1TB (5400rpm), Debian                                     | 
+| Gabriel Bueno     | Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz x 2, 4 threads, 64-bit; Memory 8 GB DDR3; HD SATA 5400rpm;Ubuntu  15.10                               | 
+| Renan Castro      | Intel(R) Core(TM) i7-3740QM CPU @ 2.70GHz @ 2 CORES @ Virtual Machine                                                                          | 
+| Gabriel Magalhães | Intel® Core™ i7-3612QM CPU @ 2.10GHz × 8; Memory 8GB, SSD Kingston 240GB V300 Sata III;  Ubuntu 15.04                                          | 
+| Victor Souza      | Intel(R) Core(TM)2 Quad CPU Q8400  @ 2.66GHz; Memory 4GB, Fedora release 21                                                                    | 
+| Wendrey           | Intel Core i5-5200U CPU 2.20GHz x 4 L1 32KiB L2 256KiB L3 3MiB Memory 8GiB DDR3 Disk 1TB WDC WD10JPVX-22J Ubuntu 14.04 LTS                     | 
+| Titouan Thibaud   | Intel® Core™ i5-4590 CPU @ 3.30GHz × 4;  Memory 8 GiB;  64-bit graph: Intel® Haswell Desktop , Gnome: Version 3.18.2; Disk 216.9 GB; Fedora 23 | 
+| Titouan Thibaud   | Intel Core i7-2630QM CPU @2.00GHz Memory 4GiB Linux Mint                                                                                       | 
+| Gustavo Basso     | Intel Core i7 @ 2.3GHz; 8 GB 1600 MHz DDR3                                                                                                     | 
 
+#### Resultados
 ![Benchmark3-tempo](/trabalho1/graficos/convolucao_tempo.png "Fig 7")
 ![Benchmark3-disco](/trabalho1/graficos/convolucao__disco.png "Fig 8")
 
