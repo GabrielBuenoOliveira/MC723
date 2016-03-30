@@ -33,7 +33,7 @@ O Benchmark 8 utiliza um programa que utiliza a biblioteca [FFTW] com essa bibli
 ## Análise dos resultados
 ### Benchmark 1
 #### Máquinas utilizadas.
-|                    |                                                                                                                                                | 
+|Nome                |Máquina                                                                                                                                         | 
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------| 
 | Mateus Ruivo       | Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz 3072 KB Cache, 4GB RAM DDR3, 5400rpm SATA                                                             | 
 | Pedro Meireles     | Intel® Core™ i5-4590 CPU @ 3.30GHz × 4;  Memory 8 GiB;  64-bit graph: Intel® Haswell Desktop , Gnome: Version 3.18.2; Disk 216.9 GB; Fedora 23 | 
@@ -56,7 +56,7 @@ Com os resultados obitidos podemos notar que retirando a máquina do Pedro Vasco
 
 ### Benchmark 2
 #### Máquinas utilizadas
-|                   |                                                                                                                                                | 
+|Nome               |Máquina                                                                                                                                         | 
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------| 
 | Klaus Rollman     | Intel(R) Core(TM) i7-3610QM CPU 4 cores, 8 threads @ 2.30GHz @ L1 256 KB / L2 1024 KB / L3 6144 KB                                             | 
 | yk0 - Yugo Kuno   | AMD PhenonII, 4 cores, 3.2MHz; 10GB, ddr3, 1.333 MHz; hdd sata3, 7200rpm, 32MB buffer                                                          | 
@@ -69,7 +69,6 @@ Com os resultados obitidos podemos notar que retirando a máquina do Pedro Vasco
 | Victor Souza      | Intel(R) Core(TM)2 Quad CPU Q8400  @ 2.66GHz; Memory 4GB, Fedora release 21                                                                    | 
 | João Fidélis      | Intel Core i7-Intel(R) Core(TM) i7-4700HQ CPU @ 2.40GHz x 4, 16GB DDR3, Ubuntu 14.04LTS, HD: WD10S21X-24R1BTO / 7200RPM / Sata III             | 
 | Wendrey           | Intel Core i5-5200U CPU 2.20GHz x 4 L1 32KiB L2 256KiB L3 3MiB Memory 8GiB DDR3 Disk 1TB WDC WD10JPVX-22J Ubuntu 14.04 LTS                     | 
-| Titouan Thibaud   | Intel® Core™ i5-4590 CPU @ 3.30GHz × 4;  Memory 8 GiB;  64-bit graph: Intel® Haswell Desktop , Gnome: Version 3.18.2; Disk 216.9 GB; Fedora 23 | 
 | Titouan Thibaud   | Intel Core i7-2630QM CPU @2.00GHz Memory 4GiB Linux Mint                                                                                       | 
 
 #### Resultados
@@ -80,7 +79,7 @@ Com os resultados obitidos podemos notar que retirando a máquina do Pedro Vasco
 
 ### Benchmark 3
 #### Máquinas utilizadas
-|                   |                                                                                                                                                | 
+|Nome               |Máquina                                                                                                                                         | 
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------| 
 | Klaus Rollman     | Intel(R) Core(TM) i7-3610QM CPU 4 cores, 8 threads @ 2.30GHz @ L1 256 KB / L2 1024 KB / L3 6144 KB                                             | 
 | yk0 - Yugo Kuno   | AMD PhenonII, 4 cores, 3.2MHz; 10GB, ddr3, 1.333 MHz; hdd sata3, 7200rpm, 32MB buffer                                                          | 
@@ -91,7 +90,6 @@ Com os resultados obitidos podemos notar que retirando a máquina do Pedro Vasco
 | Gabriel Magalhães | Intel® Core™ i7-3612QM CPU @ 2.10GHz × 8; Memory 8GB, SSD Kingston 240GB V300 Sata III;  Ubuntu 15.04                                          | 
 | Victor Souza      | Intel(R) Core(TM)2 Quad CPU Q8400  @ 2.66GHz; Memory 4GB, Fedora release 21                                                                    | 
 | Wendrey           | Intel Core i5-5200U CPU 2.20GHz x 4 L1 32KiB L2 256KiB L3 3MiB Memory 8GiB DDR3 Disk 1TB WDC WD10JPVX-22J Ubuntu 14.04 LTS                     | 
-| Titouan Thibaud   | Intel® Core™ i5-4590 CPU @ 3.30GHz × 4;  Memory 8 GiB;  64-bit graph: Intel® Haswell Desktop , Gnome: Version 3.18.2; Disk 216.9 GB; Fedora 23 | 
 | Titouan Thibaud   | Intel Core i7-2630QM CPU @2.00GHz Memory 4GiB Linux Mint                                                                                       | 
 | Gustavo Basso     | Intel Core i7 @ 2.3GHz; 8 GB 1600 MHz DDR3                                                                                                     | 
 
