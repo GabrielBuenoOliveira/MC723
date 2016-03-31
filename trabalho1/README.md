@@ -53,7 +53,7 @@ O Benchmark 8 utiliza um programa que utiliza a biblioteca [FFTW] com essa bibli
 ![Benchmark1](/trabalho1/graficos/Genetic-Tempo.png "Fig 1")
 ![Benchmark1](/trabalho1/graficos/Genetic-Disco.png "Fig 2")
 
-Com os resultados obitidos podemos notar que retirando a máquina do Pedro Vasconcellos, que é um raspbarry pi, os tempos de execução são próximos. Podemos notar também que a máquina do Pedro Meireles, por se tratar de um desktop e não ter limitações como consumo de energia e quantidade de calor dissipado, apresenta um melhor desempenho, mesmo tratando-se de um i5 em comparação com os i7, devido ao seu clock relativamente mais alto (3,3 GHz) quando comparado a média das outras máquinas (2,4 GHz) e podemos associar também a alta frequencia da memória com o resultado obtido.
+Com os resultados obitidos podemos notar que retirando a máquina do Pedro Vasconcellos, que é um raspberry pi, os tempos de execução são próximos. Podemos notar também que a máquina do Pedro Meireles, por se tratar de um desktop e não ter limitações como consumo de energia e quantidade de calor dissipado, apresenta um melhor desempenho, mesmo tratando-se de um i5 em comparação com os i7, devido ao seu clock relativamente mais alto (3,3 GHz) quando comparado a média das outras máquinas (2,4 GHz) e podemos associar também a alta frequencia da memória com o resultado obtido.
 Já para o desempenho do disco as informações dos HDs das máquinas não contém ou estão incompletas a descrição dos mesmos, o que acaba prejudicando a análise.
 
 ### Benchmark 2
@@ -109,10 +109,8 @@ Neste benchmark podemos notar uma pequena diferença de desempenho nas máquinas
 #### Resultados
 ![Benchmark4-tempo](/trabalho1/graficos/gnuplot_tempo.png "Fig 9")
 ![Benchmark4-tempo-detail](/trabalho1/graficos/gnuplot_tempo_detail.png "Fig 10")
-![Benchmark4-buscycles](/trabalho1/graficos/gnuplot_buscycles.png "Fig 11")
-![Benchmark4-b-detail](/trabalho1/graficos/gnuplot_buscycles_detail.png "Fig 12")
-![Benchmark4-cpuclock](/trabalho1/graficos/gnuplot_cpuclock.png "Fig 13")
-![Benchmark4-cpu-detail](/trabalho1/graficos/gnuplot_cpuclock_detail.png "Fig 14")
+
+Podemos ver que o Raspberry pi teve o pior tempo. Não levando em consideração ao  máquian do Pedro Grijó que obteve uma medida que não condiz com a realidade, os tempos em geral foram muito parecidos para os casos de processadores i7, os piores casos foram os de processadores de famílias passadas. O que mostra a evolução da arquitetura nestes processadores.
 
 ### Benchmark 5
 #### Resultados
@@ -121,6 +119,8 @@ Neste benchmark podemos notar uma pequena diferença de desempenho nas máquinas
 ![Benchmark5-insertion](/trabalho1/graficos/ordenacao_insertion.png "Fig 17")
 ![Benchmark5-selection](/trabalho1/graficos/ordenacao_selection.png "Fig 18")
 
+Podemos notar que os processadores mais novos obtiveram os melhores desempenhos.
+
 ### Benchmark 6
 #### Resultados
 ![Benchmark6-cpu](/trabalho1/trabalho1/graficos/Benchmark6-cpus.png "Fig 19")
@@ -128,16 +128,21 @@ Neste benchmark podemos notar uma pequena diferença de desempenho nas máquinas
 ![Benchmark6-time](/trabalho1/graficos/Benchmark6-time.png "Fig 21")
 ![Benchmark6-cycles](/trabalho1/graficos/Benchmark6-cycles.png "Fig 22")
 
+Podemos notar que quanto maiores os IPCs menores os tempos, podemos notar também que os processadores mais novos obtiveram novamente um melhor desempenho.
+
 ### Benchmark 7
 #### Resultados
 ![Benchmark7](/trabalho1/graficos/Benchmark7.png "Fig 23")
+Mais uma vez da para se notar a melhoria do desempenho dos processadores mais novos.
+
 
 ### Benchmark 8
 #### Resultados
 ![Benchmark8](/trabalho1/graficos/Benchmark8.png "Fig 24")
+ Neste benchmark podemos notar como o desempenho cai drasticamente quando é realizada escrita em disco, que como podemos ver os desempenhos para 3 000 000 com escrita em disco foram piores do que executando para 70 000 000 e sem escrita em disco. O único caso que isso não acontece é do Mateus Ruivo onde provavelmente deve ter acontecido algo que prejudicou a medida. 
 
 ### Conclusão
-Com as análises presentes neste relatório podemos concluir que os resultados em geral foram muito parecidos,retirando o caso do raspbarry pi onde o poder de processamento é muito infeiror quando comparado aos outros, os resultados mostrados dão uma ideia geral das performaces mas não podem ser considerados finais já que os computadores utilizam componetes de diferentes fabricantes, com diferentes configurações e diferentes sistemas operacionais o que acaba influenciando os resultados. Sendo assim, os resultados apresentados aqui são relativamente impreciso, porém ilustram bem a diferença de processamento entre famílias de processadores, frequências, números de núcleos e threads.
+Com as análises presentes neste relatório podemos concluir que os resultados em geral foram muito parecidos,retirando o caso do raspberry pi onde o poder de processamento é muito infeiror quando comparado aos outros, os resultados mostrados dão uma ideia geral das performaces mas não podem ser considerados finais já que os computadores utilizam componetes de diferentes fabricantes, com diferentes configurações e diferentes sistemas operacionais o que acaba influenciando os resultados. Sendo assim, os resultados apresentados aqui são relativamente impreciso, porém ilustram bem a diferença de processamento entre famílias de processadores, frequências, números de núcleos e threads.
 
 
  [FFTW]: <http://www.fftw.org/>
