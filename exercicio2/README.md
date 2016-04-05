@@ -10,6 +10,7 @@ Utilizei o programa  twolf_m2b para a execução dos testes e variando os divers
 O primeiro teste foi manter o tamanho do bloco constante e variamos o tamanho da cache, assim pude avaliar uma melhor configuração de cache que não seja absurda a atual produção de processadores.
 
 ![Tamanho](/exercicio2/graficos/TamanhoL1.png "Fig 1")
+
 Neste caso ao chegarmos ao tamanho de 8KB o ganho de desempenho com as caches maiores não foram significantes. Com o tamanho da cache L1 definido, passamos a variar os tamanhos dos blocos.
 
 ![TamanhoB](/exercicio2/graficos/TamanhoBL1.png "Fig 2")
@@ -42,6 +43,7 @@ Agora com a cache L1 definida, passei a testar diferentes configurações de cac
 
 ##Conclusão 
 Tendo em vista os resultados apresentados, temos que a melhor configuração da cache L1 e L2 para o programa twolf_m2b foi:
+
 Parâmetro|   L1(Instruções)| L1(Dados)| L2|
 ---------|----------------:|---------:|--:|
 Tamanho    |   8KB|8KB|256KB|
@@ -50,8 +52,6 @@ Associatividade   |   2| 4|4|
 Substituição |Random|LRU|LRU|
 Fetch |Sublock|Sublock|Sublock|
 
-
-----------
 
 
 
