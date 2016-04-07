@@ -1,6 +1,6 @@
 # Exercício 2
 ## Introdução
-Os processadores a cada ano, como a lei de Moore previu, a capacidade dos processadores vem aumentando ano a ano. A crescente miniaturização dos componentes dos processadores possibilitou a inclusão de diversos núcleos nos processadores e ainda a inclusão de caches cada vez maiores para garantir um acesso mais rápido as instruções e dados. Tendo em vista a importância das caches no desempenho dos processadores o exercício 3 da matéria de MC723 solicita que encontremos uma melhor configuração de cache para um programa utilizando o simulador de cache [dinero](http://pages.cs.wisc.edu/~markhill/DineroIV/).
+A crescente miniaturização dos componentes dos processadores possibilitou a inclusão de diversos núcleos nos processadores e ainda a inclusão de caches cada vez maiores para garantir um acesso mais rápido as instruções e dados. Tendo em vista a importância das caches no desempenho dos processadores o exercício 3 da matéria de MC723 solicita que encontremos uma melhor configuração de cache para um programa utilizando o simulador de cache [dinero](http://pages.cs.wisc.edu/~markhill/DineroIV/).
 
 ## Metodologia
 Utilizei o programa  twolf_m2b para a execução dos testes e variando os diversos parâmetros de execução do software dinero e reduzimos os traces para 20. Ao variar os parâmetros fiz alguns testes para obtermos a melhor configuração de cache.
