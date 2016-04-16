@@ -1,7 +1,7 @@
 # Exercício 3 
 Gabriel Bueno de Oliveira	R.A.:139455
 ## Contando instruções
-Ao realizar as alterações nos arquivos e executar o simulador, tive como  resposta nenhuma instrução de *add* no código *helloworld.c*, o que já era esperado.  Realizei algumas modificações no código para tentar capturar ao  menos uma instrução de *add*, porém todas as minhas tentativas falharam. Em todos os casos em que tentei foi utilizado o comando *addu* para realizar as somas.
+Ao realizar as alterações nos arquivos e executar o simulador, tive como  resposta nenhuma instrução de *add* no código *helloworld.c*, o que já era esperado.  Realizei algumas modificações no código para tentar capturar ao  menos uma instrução de *add*, porém todas as minhas tentativas falharam. Em todos os casos em que tentei foi utilizado o comando *addu* para realizar as somas. Podemos entender assim, que o compilador C utiliza por padrão para somas o comando *addu*, que ignora as flags de *overflow*.
 ## Avaliando desempenho
 ### susan smoothing
 Utilizei a opção *runme_small* do programa. Após a execução do programa no simulador do MIPS obtive o seguintes dados:
